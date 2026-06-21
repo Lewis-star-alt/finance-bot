@@ -3,7 +3,7 @@ import os
 
 load_dotenv()
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("TOKEN")
 
 # Railway даёт DATABASE_URL для PostgreSQL
 DB_URL = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///finance.db")
